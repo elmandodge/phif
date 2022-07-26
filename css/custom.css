@@ -1,0 +1,163 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+/* #slide-333-layer-11,
+#slide-333-layer-13,
+#slide-333-layer-14,
+#slide-333-layer-15 {
+  line-height: 200px;
+} */
+
+.content-wrap-index
+/* ,
+.content-wrap-news,
+.content-wrap-faq */ {
+  padding-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a,
+span,
+abbr {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+.rev_slider_wrapper,
+.rev_slider_wrapper * {
+  direction: ltr;
+}
+
+.menu-link {
+  /* font-stretch: extra-expanded; */
+  transition: color 0.25s ease-out 0.02s;
+}
+
+.menu-title-text {
+  font-size: clamp(0.8rem, 1.4vw, 1.1rem);
+}
+
+.sub-menu-container > * {
+  font-size: clamp(0.6rem, 1.1vw, 0.9rem);
+}
+
+.menu-link > a:visited {
+  color: #84beef;
+}
+
+/* .sub-menu-container {
+  right: auto;
+} */
+
+@media (min-width: 992px) {
+  .mega-menu-content {
+    /* margin: 0;
+    margin-top: 0px;
+    width: 100%;
+    max-width: none;
+    right: auto; */
+    transform: none;
+    left: 3%;
+  }
+}
+
+.mega-menu-style-2 {
+  max-width: 660px;
+}
+
+@media screen and (min-width: 992px) {
+  #news-menu {
+    right: -136px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .dark #header-wrap {
+    background-color: rgb(157, 93, 82);
+  }
+}
+
+.dark #copyrights,
+#copyrights.dark {
+  color: rgba(255, 255, 255, 0.4);
+  background-color: rgb(157, 93, 82);
+  border-top: 5px solid rgb(245, 130, 32);
+  /* border-top: 5px solid rgba(0,0,0,0.2); */
+  /* background-color: rgba(0,0,0,0.2); */
+}
+
+.dark .copyright-links a {
+  color: rgba(255, 255, 255, 0.4);
+  border-bottom-color: rgba(255, 255, 255, 0.65);
+}
+
+.dark .copyright-links a:hover {
+  color: rgba(255, 255, 255, 0.6);
+  border-bottom-color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-phif {
+  color: rgb(187, 187, 187);
+  border: 1px solid rgb(245, 130, 32);
+  background-color: rgb(157, 93, 82);
+}
+.btn-phif:hover {
+  color: #fff;
+  border: 1px solid rgb(245, 130, 32);
+  background-color: rgb(245, 130, 32);
+}
+
+.news-text-right-align {
+  text-align: right;
+}
+
+.section-custom-background
+{
+  background-color: #f4edeb;
+}
+
+ol,
+ul {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+.aselect-object {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+@media (min-width: 992px) {
+  .menu-container > .menu-item.active > .menu-link > div::after,
+  .menu-container > .menu-item:hover > .menu-link > div::after {
+    /* bottom: -1px;
+    opacity: 1; */
+    display: none;
+  }
+}
+
+p,
+.btn {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Shadowed Panel Background Color */
+.shadow-lg {
+  background: #fff;
+}
